@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 18px;
+}
+
+.bg{
+	background-image: linear-gradient(#EDF6FD, white);
+}
+
+#curs{
+	font-family: 'Dancing Script', cursive;
+}
+
+.center{
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+}
+
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.fbg{
+	background-color: #3F4045;
+}
+
+#wid{
+	background-image: url('./images/cardbg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#wid1{
+	background-image: url('./images/cardbg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

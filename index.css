@@ -6,12 +6,12 @@
 	font-size: 18px;
 }
 
-#logome{
-	width: 28px;
+.bg{
+	background-image: linear-gradient(#EDF6FD, white);
 }
 
-.bg{
-	background-color: #EDF6FD;
+.bg2{
+	background-color: white;
 }
 
 nav{
@@ -21,7 +21,13 @@ nav{
 }
 
 #me{
+	min-width: 200px;
 	width: 100%;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.5)));
+}
+
+.large{
+	font-size: 25px;
 }
 
 footer {
@@ -56,11 +62,13 @@ footer a:hover{
 
 ul{
 	list-style-type: none;
-	font-weight: normal;
+	font-weight: bold;
 	text-align: justify;
-	line-height: 2;
 }
 
 .img{
-	height:600px;
+	height:300px;
+	width: 300px;
+	border-radius: 50% 50% 50% 50%;
+	-webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,.5)));
 }

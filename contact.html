@@ -6,12 +6,12 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gothic+A1&display=swap" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="./index.css">
+		<link rel="stylesheet" type="text/css" href="./contact.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		<title>Home | Sakdalan</title>
+		<title>Contact | Sakdalan</title>
 	</head>
 	<body>
 		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
@@ -28,57 +28,45 @@
 		      	</div>
 		    </div>
 		</nav>
-	
-		<div  class="container-fluid py-3 pb-5 bg">
-			<div class="row">
-				<div class="col col-sm-12 col-md-5 d-flex align-items-baseline">
-					<img src="./images/me.png" id="me" class="img-fluid">
-				</div>
-				<div class="col col-sm-12 col-md-7 align-self-center text-center">
-					<h1>Hello!</h1>
-					<h1>I'm Jonmichael Paul P. Sakdalan</h1>
-					<p class="text-justify p-3 large">
-						I would introduce myself in six words. Passionate coder, best colleague ever. That pretty much sums it up, though at least the last one my former colleagues have to confirm. I try to do a good job in all roles I have in life, and I enjoy the process immensely. Do you want me to talk about my coding skills and experience now, or will we discuss it later in the interview? 
-					</p>
-				</div>
-			</div>
-		</div>
 
-		<div class="container-fluid py-3 pb-5 bg2">
-			<div class="row p-2 m-2 justify-content-md-center">
-				<h1 class="text-center p-2 m-2 col col-12">ABOUT ME</h1>
-				<div class="d-flex flex-row justify-content-center flex-wrap align-items-center">
-					<img class="img mt-2 img-fluid" src="./images/school.png">
-					<div class="card-body">
-						<h3>Education</h3>
-						<ul>
-							<li>Our Lady of Fatima University</li>
-							<li>Far Eastern University Diliman</li>
-							<li>Zuitt Bootcamp</li>
-						</ul>
+		<div class="py-3 container-fluid bg-dark text-white">
+			<div class="row">
+				<div class="col-md-6 my-4">
+					<h2 class="text-center">My Location</h2>
+					<iframe class="gmap_canvas" src="https://maps.google.com/maps?q=north%20olympus&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+				<div class="col-md-6 my-4">
+					<h2 class="text-center">Contact Me</h2>
+					<form action="https://matias.ma/nsfw/">
+						<div class="form-group">
+							<label for="txt-email">Email:</label>
+							<input type="email" name="email" id="txt-email" placeholder="name@example.com" class="form-control" required="">
+						</div>
+						<div class="form-group">
+							<label for="txt-name">Name:</label>
+							<input type="name" name="name" id="txt-name" class="form-control" required="">
+						</div>						
+						<div class="form-group">
+							<label for="txt-subj">Subject:</label>
+							<input type="subj" name="subj" id="txt-subj" class="form-control" required="">
+						</div>
+						<div class="form-group">
+							<label for="txt-textarea">Message Me:</label>
+							<textarea class="form-control" id="txt-textarea" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-success">Submit</button>
+						<button type="reset" class="btn btn-danger">Reset</button>
+					</form>
+				</div>
+				<div class="center">
+					<h2 class="col-12">Other Ways to Contact Me</h2>
+					<div class="pt-2 pt-3 pb-2 ">
+						<a href="https://www.facebook.com/jonmichael.sakdalan" target="_blank" class="p-2 fab fa-facebook fa-3x"></a><p class="dp">Facebook</p>
+						<a href="" class="p-2 fab fa-instagram fa-3x"></a><p class="dp">Instagram</p>
+						<a href="" class="p-2 fab fa-twitter fa-3x"></a><p class="dp">Twitter</p>
+						<a href="https://gitlab.com/JonmichaelSakdalan" target="_blank" class="p-2 fab fa-gitlab fa-3x"></a><p class="dp">GitLab</p>
+						<a href="https://github.com/JonmichaelSakdalan" target="_blank" class="p-2 fab fa-github fa-3x"></a><p class="dp">GitHub</p>
 					</div>
-				</div>				
-				<div class="d-flex flex-row justify-content-center flex-wrap align-items-center">
-					<img class="img mt-2 img-fluid" src="./images/exp.png">		
-					<div class="card-body">
-						<h3>Experience</h3>
-						<ul>
-							<li>3 years of HTML, CSS, JavaScript</li>
-							<li>5 years of Java</li>
-							<li>5 years of Photoshop</li>
-						</ul>
-					 </div>
-				</div>				
-				<div class="d-flex flex-row justify-content-center flex-wrap align-items-center">
-					<img class="img mt-2 img-fluid" src="./images/val.png">
-					<div class="card-body">
-						<h3>Hobbies</h3>
-						<ul>
-							<li>Playing online games</li>
-							<li>Coding</li>
-							<li>Watching movies/series</li>
-						</ul>
-					 </div>
 				</div>
 			</div>
 		</div>
@@ -97,5 +85,6 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 		<script src="https://kit.fontawesome.com/8e7a348231.js" crossorigin="anonymous"></script>
+
 	</body>
 </html>
